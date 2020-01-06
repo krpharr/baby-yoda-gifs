@@ -24,7 +24,8 @@ $.ajax({
         $("#carousel-ID").append(a);
     });
     // $('.carousel').carousel();
-    $('.carousel').carousel({
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
         onCycleTo: function(ele) {
             // $(ele).childnodes(".gifcard");
             //stop last to still
@@ -39,4 +40,7 @@ $.ajax({
             lastIndex = currentIndex;
         }
     });
+    // $('.carousel.carousel-slider').carousel({
+    //     fullWidth: true
+    // });
 });
