@@ -16,9 +16,10 @@ body {
 }
 
 .gifcard {
-    width: 304px;
-    height: 304px;
+    width: 100%;
+    height: 100%;
     background-repeat: no-repeat;
     background-position: center;
-    /* background-size: cover; */
+    background-size: 100%;
+    margin: 0 auto;
 }
