@@ -1,3 +1,11 @@
+* {
+    /* border: 1px solid lightblue; */
+}
+
+body {
+    background-color: black;
+}
+
 #json-reponse-ID {
     display: flex-wrap;
     justify-content: space-around;
@@ -5,4 +13,12 @@
 
 .byGif {
     margin: 8px;
+}
+
+.gifcard {
+    width: 304px;
+    height: 304px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* background-size: cover; */
 }
